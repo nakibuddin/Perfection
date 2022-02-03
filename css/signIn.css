@@ -1,0 +1,79 @@
+.modal-header{
+	border-bottom: none;
+}
+
+.modal-content-login{
+	border: 1.5px solid white;
+	background-color: #d51e38;
+	border-radius: 0;
+}
+
+.modal-footer-login{
+	border-top: none;
+ 	justify-content: center;
+ 	color: white;
+}
+
+.close{
+	opacity: inherit;
+	color: white;
+	font-size: 25px;
+}
+
+.close:hover{
+	color: white;
+	opacity: inherit;
+}
+
+button.close{
+	outline: none;
+}
+
+label{
+	color: white;
+	font-size: 18px;
+}
+
+.form-control,.form-control:focus{
+	border: none;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	color: white;
+	background: none;
+	outline: none;
+	box-shadow: none;
+	/*padding: 0;*/
+}
+
+.fPass,.fPass:hover{
+	color: white;
+	text-decoration: underline;
+	float: right;
+	margin-top: 5px;
+}
+
+.fa-user,.fa-lock{
+	bottom: 1px;
+	position: relative;
+	font-size: 15px;
+}
+
+#login_eye{
+	position: absolute;
+	right: 17px;
+	top: 145px;
+	color: white;
+	cursor: pointer;
+}
+
+#login_eye.active{
+	color: blue;
+}
+
+#reg_here{
+	text-decoration: underline;
+	color: green;
+	margin-top: 4px;
+	cursor: pointer;
+}

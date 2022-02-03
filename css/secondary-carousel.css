@@ -1,0 +1,18 @@
+.seccondary-carousel{
+	left: 0;
+	top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.secondary-carousel li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.secondary-carousel .active {
+	background: #707070;
+}

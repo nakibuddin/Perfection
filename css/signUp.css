@@ -1,0 +1,87 @@
+.modal-content-register{
+	border: 1.5px solid white;
+	background-color: #d51e38;
+	border-radius: 0;
+}
+
+.modal-footer-register{
+	border-top: none;
+ 	justify-content: center;
+ 	color: white;
+}
+
+.close{
+	opacity: inherit;
+	color: white;
+	font-size: 25px;
+}
+
+.close:hover{
+	color: white;
+	opacity: inherit;
+}
+
+button.close{
+	outline: none;
+}
+
+label{
+	color: white;
+	font-size: 18px;
+}
+
+.form-control,.form-control:focus{
+	border: none;
+	text-decoration: none;
+	border-bottom: 1px solid white;
+	border-radius: 0;
+	color: white;
+	background: none;
+	outline: none;
+	box-shadow: none;
+	/*padding: 0;*/
+}
+
+.form-group-reg-password{
+	position: relative;
+}
+
+#preg_eye,#cpreg_eye{
+	position: absolute;
+	right: 4px;
+	bottom: 9px;
+	color: white;
+	cursor: pointer;
+}
+
+#preg_eye.active,#cpreg_eye.active{
+	color: blue;
+}
+
+.radiobtns{
+	margin-left: 8px;
+	margin-right: 4px;
+}
+
+.form-group-gender{
+	color: white;
+}
+
+.has-success{
+	color: green;
+}
+.has-error{
+	color: red;
+}
+
+.popover-inner{
+	color: black;
+	background-color: #ffffff;
+	/*min-width: 300px;*/
+}
+
+.list-group-item{
+	/*font-family: Helvetica, Arial, sans-serif;*/
+	font-size: 15px;
+	font-weight: lighter;
+}
